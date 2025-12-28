@@ -229,6 +229,37 @@ body {
     line-height: 1.6;
 }
 
+.section-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-content {
+    flex: 1;
+}
+
+.section-media {
+    flex-shrink: 0;
+    width: 352px;
+}
+
+.section-media video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-media figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
 /* ===================================================================== */
 /*                        RESPONSIVE DESIGN (MOBILE)                       */
 /* ===================================================================== */
@@ -259,5 +290,13 @@ body {
     /* Adjust the flex content to stack vertically */
     .flex-container {
         flex-direction: column;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .section-media {
+        width: 100%;
     }
 }
