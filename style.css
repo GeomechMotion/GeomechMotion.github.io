@@ -231,12 +231,20 @@ body {
 
 .section-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid #ccc;
 }
+
+.welcome-section {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
 
 .section-content {
     flex: 1;
@@ -261,7 +269,7 @@ body {
 }
 
 .intro-logo {
-    width: 100%;
+    width: 50%;
 }
 
 /* ===================================================================== */
@@ -302,5 +310,9 @@ body {
 
     .section-media {
         width: 100%;
+    }
+
+    .intro-logo {
+        width: 50%;
     }
 }
