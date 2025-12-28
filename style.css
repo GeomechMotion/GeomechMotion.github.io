@@ -244,7 +244,7 @@ body {
 
 .section-media {
     flex-shrink: 0;
-    width: 352px;
+    width: 240px;
 }
 
 .section-media video {
@@ -258,6 +258,10 @@ body {
     color: #6c757d;
     text-align: center;
     margin-top: 0.5em;
+}
+
+.intro-logo {
+    width: 100%;
 }
 
 /* ===================================================================== */
